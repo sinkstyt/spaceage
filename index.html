@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="src/main.js"></script>
+  <script type="text/javascript" src="src/space-converter.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Age Converter for Other Planets</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="page-heading">Calculate Your Age on a Different Planet</h1>
+      <p class="intro">Ever wondered how many Jupiter-years old you are?</p>
+      <ul class="planets-list">
+        <li>or how about on Mars?</li>
+        <li>You may also consider Venus years</li>
+        <li>and Mercury years</li>
+        <li>plop your age and a couple details of demographic info (optional) to also see life expectancy on these other Solar System planets</li>
+      </ul>
+    </div>
+    <h2>Enter your current age in Earth years:</h3>
+    <form id="triangle-checker-form" class="form-group">
+      <label class="form-group" for="earthInput">Enter a number:</label>
+      <input class="form-group" id="earthInput" type="number" required>
+      <button class="btn btn-primary form-group" type="submit">Submit</button>
+    </form>
+    <ul id="responses"></ul>
+  </div>
+</body>
+</html>
